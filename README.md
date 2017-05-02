@@ -5,7 +5,7 @@
 - Data.zip contains some data file which are needed in different parts of the code, e.g. stopwords, medical words, ...
 - java "main" method is placed in "BMainThread.java" file. 
 
-# Class descriptions
+# Class descriptions (initial version)
 + BBOW.java: 
 To manipulate a hashtable of BTerms.
 

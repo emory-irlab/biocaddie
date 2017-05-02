@@ -3,68 +3,68 @@
 - For efficiency reasons the standards of Java coding was violated in some cases, e.g. the getter/setter methods were not used and the attributes were made directly accessible.
 - To make the coding ready for rapid changes and also have fewer lines of codes some standards of soding was violated, e.g. the number of "public static" methods is higher than usual projects.
 
-BBOW.java
++ BBOW.java: 
 To manipulate a hashtable of BTerms.
 
-BDocumentAtIndex.java
++ BDocumentAtIndex.java: 
 To store and manipulate indexed lucene documents.
 
-BExpansion.java
++ BExpansion.java: 
 To load and save expansion resources (HGNC, KEGG, ...).
 
-BGlobalVar.java
++ BGlobalVar.java: 
 To store the project globab constants.
 
-BGoogleNGram.java
++ BGoogleNGram.java: 
 Extract information from google ngrams.
 
-BGoogleSearch.java
++ BGoogleSearch.java: 
 Search through google web interface.
 
-BIRParam.java
++ BIRParam.java: 
 To store the parameters for optimizations.
 
-BIndexCreator.java
++ BIndexCreator.java: 
 To create lucene index.
 
-BJournalExperiments.java
++ BJournalExperiments.java: 
 We used this class to do additional experiments for submitted paper.
 
-BLTRParam.java
++ BLTRParam.java: 
 To store the parameters for LTR optimizations (it is not used in the code).
 
-BLib.java
++ BLib.java: 
 public functionalities used in the project.
 
-BMainThread.java
++ BMainThread.java: 
 Main class
 
-BMallet.java
++ BMallet.java: 
 To find the topic distributions.
 
-BOptimize.java
++ BOptimize.java: 
 To tune the system (the parts of the code is in this class)
 
-BQuery.java
++ BQuery.java: 
 To store and manipulate the official queries.
 
-BQueryChainResult.java
++ BQueryChainResult.java: 
 To store a series of queries.
 
-BQueryResult.java
++ BQueryResult.java: 
 To store the hit list retrieved using Lucene.
 
-BRankLib.java
++ BRankLib.java: 
 To re-rank the top documents in alist using LTR.
 
-BStandardMethods.java
++ BStandardMethods.java: 
 A facade for Lucene API (the Lucene API is not directly accessed in other classes).
 
-BTerm.java
++ BTerm.java: 
 To store a term information in a set od documents (or collection).
 
-BTrecEvalResult.java
++ BTrecEvalResult.java: 
 A facade to run/parse the treceval results.
 
-BWeka.java
++ BWeka.java: 
 A facade for Weka API.

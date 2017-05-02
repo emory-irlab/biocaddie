@@ -4,7 +4,7 @@
 - To make the coding ready for rapid changes and also have fewer lines of codes some standards of coding was violated, e.g. the number of "public static" methods is higher than usual projects.
 - Data.zip contains some data file which are needed in different parts of the code, e.g. stopwords, medical words, ...
 
-# File descriptions
+# Class descriptions
 + BBOW.java: 
 To manipulate a hashtable of BTerms.
 
